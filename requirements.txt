@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+seaborn
+scikit-learn
+bambi
+arviz
+pymc
+tabulate
+imageio
+geopandas
+jupyter
