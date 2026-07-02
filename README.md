@@ -23,6 +23,10 @@ Main analysis notebook containing:
 
 The workflow reproduces the preprocessing, statistical analyses, and visualizations described in the study. Analyses were conducted using Python scientific computing and statistical libraries in Google Colab. 
 
+### `revision_analyses.py`
+
+The revision scripts reproduce the additional analyses requested during peer review. They define the record-level analytic cohort for children aged 0-15 years, document why the anonymized `id` field cannot be used for longitudinal person-level linkage, generate the complete ICD-10 code inventory for each diagnostic group, estimate negative-binomial annual count models with child-population offsets and overdispersion checks, compute annual percent change and segmented trend summaries around the 2019 and 2021 policy periods, assess ASD case-control subsampling sensitivity, and summarize key missingness/coverage indicators for RECORD-aligned reporting. These scripts are intended to support transparency of the revised manuscript; raw registry data are not included in the repository because access is restricted by data governance requirements.
+
 ### `data/ndd_df.csv`
 
 Processed and aggregated epidemiological dataset derived from anonymized national registry records spanning 2014–2024.
